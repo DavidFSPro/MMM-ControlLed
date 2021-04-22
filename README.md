@@ -15,14 +15,14 @@ modules:
 [
 	{
 		module: "MMM-ControlLed",
-        position: "top_right",
+		position: "top_right",
 		config:
-		{
-			NameComposant: "Led",
-            delaiLOn:2,
-			delaiLOff:2,
-            notificationMMMPins:"SWITCH_LED",
-		}
+			{
+				NameComposant: "Led",
+				delaiLOn:2,
+				delaiLOff:2,
+				notificationMMMPins:"SWITCH_LED",
+			}
 	},
 ]
 ````
@@ -46,15 +46,21 @@ The following properties can be configured:
 			<td>name of the component, you can also put the pin number (e.g. LED23)<br>
 				<br><b>default value : </b>"Led"
 			</td>
-            <td><code>delaiLOn</code></td>
+		</tr>	
+		<tr>
+            		<td><code>delaiLOn</code></td>
 			<td>LED ON delay<br>
 				<br><b>default value : </b>2
 			</td>
-            <td><code>delaiLOff</code></td>
+		</tr>	
+		<tr>
+			<td><code>delaiLOff</code></td>
 			<td>LED OFF delay<br>
 				<br><b>default value : </b>2
 			</td>
-            <td><code>notificationMMMPins</code></td>
+		</tr>	
+		<tr>
+            		<td><code>notificationMMMPins</code></td>
 			<td>notification for the MMM-Pins module (<b>the notification must be the same as for the MMM-Pins module</b>)<br>
 				<br><b>default value : </b>"SWITCH_LED"
 			</td>
