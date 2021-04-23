@@ -1,3 +1,16 @@
+/* global Module */
+
+/*  Magic Mirror
+    Module: MMM-ControlLed
+   
+    David / FabLab LabHidouille by Familles Solidaires
+
+    Created : 22-04-2021
+    Revised : 23-04-2021
+  
+  MIT Licensed.
+*/
+
 Module.register("MMM-ControlLed", 
 {
     defaults: 
