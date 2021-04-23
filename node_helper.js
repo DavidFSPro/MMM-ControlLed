@@ -1,4 +1,13 @@
-// le fichier démarre en même temps que le module
+/*  Magic Mirror
+    Node Helper: MMM-ControlLed
+     
+    David / FabLab LabHidouille by Familles Solidaires
+
+    Created : 22-04-2021
+    Revised : 23-04-2021
+
+    MIT Licensed.
+*/
 
 var NodeHelper = require("node_helper")
 
